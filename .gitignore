@@ -1,0 +1,21 @@
+# Local state and credentials
+.env
+.env.*
+!.env.example
+*.sqlite
+*.sqlite3
+*.db
+*.db-*
+*.log
+*.local
+.DS_Store
+__pycache__/
+.pytest_cache/
+node_modules/
+dist/
+tmp/
+output/
+private/
+secrets/
+*token*
+*secret*
