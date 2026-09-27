@@ -1,38 +1,39 @@
-# Websauce GTM
+# Websauce AI for Business
 
-An open, agent-first playbook for building an inbound loop with Codex. This repository is a **working method and reusable skill**, not a hosted lead-generation product.
+Practical, open-source ways for business owners to use AI. Start with a task you already do, try a small workflow, check the result, and keep what saves time or improves the work.
 
-The loop is: learn from real work → publish a useful answer → offer one clear next step → check that enquiries arrive → measure conversations → improve the next piece. Websauce is the public case study. The reusable [inbound-engine skill](skills/inbound-engine/SKILL.md) has no Websauce account or customer data.
+This is a Websauce education project for owners and small teams, including people who do not write code. It can hold plain-English guides, ChatGPT or Codex skills, reusable prompts, schedules, cloud examples and real case studies. Each item says what works today and what still needs building.
 
-## Start in five minutes
+## Start here
 
-1. Clone this repository and read [the example brief](examples/example-brief.md).
-2. Give Codex this prompt: **“Use the inbound-engine skill in this repository to create an inbound experiment from examples/example-brief.md. Save the output locally; do not publish.”**
-3. Review the resulting topic, draft, landing-page check and measurement plan.
-4. Replace the example with your own business facts and real customer questions.
+1. Read [choose your first AI task](guides/choose-your-first-task.md). It helps you pick a repetitive, low-risk task with a clear result.
+2. Use [the first-workflow worksheet](examples/first-workflow-worksheet.md) with your own non-sensitive example.
+3. Follow [skill, schedule, or app?](guides/skill-schedule-or-app.md) to decide whether the workflow needs instructions, a timed run, or software.
 
-A [worked example](examples/example-output.md) shows the expected shape without accessing any account.
+You can use the guides with a chat assistant and copy the prompts directly. The Codex skill below is an optional deeper example.
 
-For repeated use in Codex, copy `skills/inbound-engine` into your Codex skills directory (`~/.codex/skills/inbound-engine` on a default local setup), then invoke `$inbound-engine`. You can also ask Codex to read the skill file directly from this clone. Installing the skill does not install a schedule or connect an account.
+## What is available
 
-The skill can research, draft, check and learn. Publishing, sending messages and changing live pages require the user's authorization and the available account access. There is **no paid API, scraper, background server or account login** in this repository. The example works as a local planning run.
+| Area | Resource | Status |
+| --- | --- | --- |
+| Getting started | [Pick a first task](guides/choose-your-first-task.md) and [worksheet](examples/first-workflow-worksheet.md) | **Ready**: manual exercise |
+| Choosing a tool | [Skill, schedule, or app?](guides/skill-schedule-or-app.md) | **Ready**: plain-English guide |
+| Marketing and enquiries | [Inbound engine skill](skills/inbound-engine/SKILL.md) with a [fictional example](examples/example-brief.md) and [worked output](examples/example-output.md) | **Ready**: agent instructions and local demo |
+| Marketing operations | [Daily run template](docs/daily-run.md), [publication](docs/publication.md) and [measurement](docs/measurement.md) guides | **Ready**: templates, not installed automation |
+| Real-world learning | [Websauce case study](docs/websauce-case-study.md) | **Dated example**: verify current facts before reuse |
+| Customer support, internal operations, websites, cloud and data | [Roadmap](docs/roadmap.md) | **Planned**: no working module claimed yet |
 
-## What's here
+## What we mean by a product
 
-- [Inbound engine skill](skills/inbound-engine/SKILL.md): the reusable agent workflow.
-- [Daily operating template](docs/daily-run.md): a bounded manual or scheduled run.
-- [Publication protocol](docs/publication.md): avoid duplicate posts and misleading success claims.
-- [Measurement guide](docs/measurement.md): count actual enquiries and qualified conversations.
-- [Websauce case study](docs/websauce-case-study.md): what has really happened, without private records.
-- [Example brief](examples/example-brief.md): fictional inputs to try the workflow.
-- [Product roadmap](docs/roadmap.md): what's next and what is still missing.
+- A **guide** explains a task in ordinary language and gives a test a business owner can run.
+- A **skill** is a reusable set of agent instructions and resources. The installed agent still needs the user's files, access and permission for external actions.
+- A **schedule** asks an agent to return at a set time. It is not a background server and depends on the host, account sessions and available integrations.
+- An **app or cloud workflow** is software that runs for users. We will label prototypes and deployed examples separately.
 
-## Scope
+The [inbound-engine skill](skills/inbound-engine/SKILL.md) is the first skill here, not the subject of the whole repository. To try it from this clone, ask Codex to read that file and apply it to the fictional example. For repeated local use, copy the skill folder into your Codex skills directory (`~/.codex/skills/inbound-engine` on a default setup) and invoke `$inbound-engine`. Installing it does not publish content, connect an account or install a schedule.
 
-“Inbound” here means content and discoverability connected to a working enquiry path. Cold outreach is a separate channel. A generated post is an asset, not demand; an enquiry is not revenue. At the time of this first release, the Websauce operator records work in a private local ledger and runs from a personal Codex schedule. That ledger and its real records are not in this repository, and this repo does not create a schedule automatically.
+## How we publish examples
 
-## Contributing
+Examples use synthetic information or clearly public Websauce work. We say when an action is a draft, a local queue item, a live publication or a measured result. The repository contains no private contacts, customer messages, credentials or live Websauce operating database. It does not promise leads, revenue or unattended operation.
 
-Small, tested improvements to the skill, examples and documentation are welcome. Use synthetic examples. Do not add real leads, customer messages, private identifiers, authentication data, browser exports or unlicensed media.
-
-MIT licensed; see [LICENSE](LICENSE).
+Want to improve a guide or add a practical business use case? Read [contributing](CONTRIBUTING.md). This repository is MIT licensed; see [LICENSE](LICENSE).
