@@ -20,6 +20,7 @@ You can use the guides with a chat assistant and copy the prompts directly. The 
 | Choosing a tool | [Skill, schedule, or app?](guides/skill-schedule-or-app.md) | **Ready**: plain-English guide |
 | Marketing and enquiries | [Inbound engine skill](skills/inbound-engine/SKILL.md) with a [fictional example](examples/example-brief.md) and [worked output](examples/example-output.md) | **Ready**: agent instructions and local demo |
 | Marketing operations | [Daily run template](docs/daily-run.md), [publication](docs/publication.md) and [measurement](docs/measurement.md) guides | **Ready**: templates, not installed automation |
+| Retail product content | [Retail content skill](skills/retail-content/SKILL.md) and [fictional rehearsal](skills/retail-content/assets/example-request.md) | **Prototype**: photo workflow, tested local bookkeeping, optional Blender scene; account delivery needs per-business verification |
 | Real-world learning | [Websauce case study](docs/websauce-case-study.md) | **Dated example**: verify current facts before reuse |
 | Customer support, internal operations, websites, cloud and data | [Roadmap](docs/roadmap.md) | **Planned**: no working module claimed yet |
 
@@ -39,6 +40,8 @@ The [inbound-engine skill](skills/inbound-engine/SKILL.md) is the first skill he
 - [Turn completed work into useful content](guides/content-from-work.md): [synthetic demonstration](examples/content-from-work/output.md).
 
 ## How we publish examples
+
+For retail photographs, ask Codex to read [retail-content](skills/retail-content/SKILL.md) and use it with your own product photos and confirmed selling prices. For repeat use, copy its folder into `~/.codex/skills/retail-content` and invoke `$retail-content`. Originals and generated packs belong in your private workspace; the public skill does not supply account access or permission to send or publish.
 
 Examples use synthetic information or clearly public Websauce work. We say when an action is a draft, a local queue item, a live publication or a measured result. The repository contains no private contacts, customer messages, credentials or live Websauce operating database. It does not promise leads, revenue or unattended operation.
 
