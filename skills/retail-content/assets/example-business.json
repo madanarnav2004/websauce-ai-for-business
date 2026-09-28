@@ -1,0 +1,11 @@
+{
+  "business": "Example Lighting Studio",
+  "currency": "USD",
+  "language": "English",
+  "instagram": "example_lighting_not_connected",
+  "website": "https://shop.example.org",
+  "publication_policy": "review_first_batch",
+  "whatsapp_delivery": {"recipient": "Example owner", "authorized": false},
+  "catalog_adapter": "existing_authenticated_admin",
+  "status": "synthetic example; no accounts connected"
+}

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Retail Content"
+  short_description: "Turn retail photos and prices into faithful marketing packs"
+  default_prompt: "Use $retail-content to turn my product photos and prices into a reviewable marketing pack."
