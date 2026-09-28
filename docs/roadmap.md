@@ -10,7 +10,11 @@ This is an education and open-source roadmap, not a list of shipped features. A 
 - Growth operating templates for daily reviews, publication and measurement.
 - Dated Websauce case study with explicit limits.
 
-## Next useful modules
+## September 28 release
+
+Website launch checker, customer enquiry assistant and content from actual work are now ready as instructions, guides and synthetic demonstrations. They do not install schedules or connect accounts. See the README for links.
+
+## Further development (earlier candidate descriptions below)
 
 1. **Customer enquiry assistant:** turn a real enquiry into a concise internal summary and a draft reply, using synthetic data in the public demo. Never claim a draft was sent.
 2. **Website launch checker:** walk through navigation, mobile layout and whether a test enquiry arrives at the right destination. It should stop when account access or bot verification is unavailable.
