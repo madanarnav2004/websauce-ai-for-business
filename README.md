@@ -32,6 +32,12 @@ You can use the guides with a chat assistant and copy the prompts directly. The 
 
 The [inbound-engine skill](skills/inbound-engine/SKILL.md) is the first skill here, not the subject of the whole repository. To try it from this clone, ask Codex to read that file and apply it to the fictional example. For repeated local use, copy the skill folder into your Codex skills directory (`~/.codex/skills/inbound-engine` on a default setup) and invoke `$inbound-engine`. Installing it does not publish content, connect an account or install a schedule.
 
+## More ready workflows
+
+- [Check a website before launch](guides/website-launch-checker.md): [synthetic demonstration](examples/website-launch-checker/output.md).
+- [Turn an enquiry into a useful next step](guides/customer-enquiry-assistant.md): [synthetic demonstration](examples/customer-enquiry-assistant/output.md).
+- [Turn completed work into useful content](guides/content-from-work.md): [synthetic demonstration](examples/content-from-work/output.md).
+
 ## How we publish examples
 
 Examples use synthetic information or clearly public Websauce work. We say when an action is a draft, a local queue item, a live publication or a measured result. The repository contains no private contacts, customer messages, credentials or live Websauce operating database. It does not promise leads, revenue or unattended operation.

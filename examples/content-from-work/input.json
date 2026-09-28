@@ -1,0 +1,10 @@
+{
+  "audience": "Small business owners",
+  "evidence": {
+    "change": "Added a visible enquiry button to a fictional catalogue",
+    "qa": "A synthetic test reached the demo inbox",
+    "revenue": "Not measured",
+    "rights": "Synthetic example owned by the author"
+  },
+  "requested_claim": "We doubled sales in 30 minutes"
+}

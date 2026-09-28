@@ -1,0 +1,22 @@
+{
+  "business": "Example Lantern Studio (fictional)",
+  "goal": "Visitor can request a lighting consultation",
+  "evidence": [
+    {
+      "check": "Navigation",
+      "observation": "Home, collection and contact links reached expected pages at 1440px."
+    },
+    {
+      "check": "Mobile CTA",
+      "observation": "At 390px the fixed chat panel covers the Request consultation button."
+    },
+    {
+      "check": "Form response",
+      "observation": "One authorized synthetic submission QA-DEMO-001 displayed Thank you."
+    },
+    {
+      "check": "Delivery",
+      "observation": "Destination account unavailable; no stored record was inspected."
+    }
+  ]
+}
